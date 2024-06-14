@@ -1,1 +1,1 @@
-# This repo is for React-JS 
+# This repo is for React JS
