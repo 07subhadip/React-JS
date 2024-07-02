@@ -14,7 +14,9 @@ function App() {
     if(counter<0){
       counter = 0;
     }else{
-      setCounter(counter);
+      // setCounter(counter);
+      setCounter(prevCounter => prevCounter+1);
+      // setCounter(prevCounter => prevCounter+1);
     }
   }
 
