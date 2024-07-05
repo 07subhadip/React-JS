@@ -76,6 +76,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }   */
+
+
    body{
     background-color: rgb(76, 71, 71);
    }
@@ -116,5 +118,18 @@ button:focus-visible {
   input[type="checkbox"]:checked {
     border-color: #D1D5DB;
   }
-  
-   
+
+  input[type="range"]{
+    transition: 0.4s all ease-out;
+  }
+  input[type="range"]::-webkit-slider-runnable-track{
+    background: black;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 6px;
+  }
+  input[type="range"]::-webkit-slider-thumb{
+      margin-top: -5.4px;
+      background-color: #5cd5eb;
+      border: solid 2px white;
+  }
