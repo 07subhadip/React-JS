@@ -20,6 +20,8 @@ function App() {
     }
   }
 
+  //adding a comment just for fun😊 
+
   function subOne(){
     counter-=1;
     if(counter<0){
